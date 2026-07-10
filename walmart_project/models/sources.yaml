@@ -1,0 +1,15 @@
+sources:
+  - name: walmart_databricks
+    database: walmart
+    schema: bronze
+    config:
+      enabled: true
+    tables:
+      - name: customers  # enabled
+      - name: orders
+      - name: employees
+      - name: order_items
+      - name: products
+      - name: stores
+
+        
