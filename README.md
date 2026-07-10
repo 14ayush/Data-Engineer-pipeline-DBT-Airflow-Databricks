@@ -98,7 +98,6 @@ sequenceDiagram
 
 ---
 
-
 ## ⚙️ How It Works
 
 1. **Data Ingestion (🚧 Planned):** Raw Walmart sales CSV files will be uploaded to an **AWS S3** bucket, acting as the landing zone for raw data.
@@ -140,7 +139,6 @@ sequenceDiagram
    - Define a DAG to move data from S3 into Databricks automatically.
    - This section will be updated with full instructions once implemented.
 
-
 ---
 
 ## 💡 Key Learnings
@@ -156,6 +154,3 @@ sequenceDiagram
 
 **[AYUSH SHARMA]**
 📧 [ayushpsharma88099@gmail.com]
-
-
-> This project is based on the tutorial *"Data Engineering End-To-End Project | Databricks | Airflow | DBT | AWS"* by **Ansh Lamba**, adapted and extended as part of my personal learning journey into data engineering. The Databricks and DBT portions have been implemented; the Airflow and AWS S3 orchestration portions are currently in progress as I continue learning these tools.
